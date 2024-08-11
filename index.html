@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遊戲頁面</title>
+    <!-- 引入 CSS 文件 -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script> -->
+    <script  src="./node_modules/gsap/dist/gsap.min.js"></script>
+    <script src="./node_modules/gsap/dist/EasePack.min.js"></script>
+
+</head>
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="game-layer">
+                <div class="machine-container">
+                    <div class="backboard"></div>
+                    <div class="balls"></div>
+                    <img class="machine" src="https://assets.codepen.io/2509128/gotcha.svg" alt="Machine">
+                    <div class="title"></div>
+                    <div class="price"></div>
+                    <img class="handle" src="https://assets.codepen.io/2509128/handle.svg" alt="Handle">
+                    <div class="pointer">
+                        <img src="https://assets.codepen.io/2509128/point.png" alt="Pointer">
+                    </div>
+                </div>
+            </div>
+            <div class="ui-layer">
+                <div class="title-container">
+                    <div class="title">
+                        <h2 class="wiggle">請抽取扭蛋</h2>
+                    </div>
+                </div>
+                <div class="prize-container">
+                    <div class="prize-ball-container"></div>
+                    <div class="prize-reward-container">
+                        <div class="shine">
+                            <img src="https://assets.codepen.io/2509128/shine.png" alt="Shine">
+                        </div>
+                        <div class="prize">
+                            <img class="wiggle" src="" alt="Prize">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入 JavaScript 文件 -->
+   
+    <script src="app.js"></script>
+</body>
+</html>
