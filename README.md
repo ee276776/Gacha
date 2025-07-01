@@ -16,7 +16,7 @@
 
 1. 將專案下載或克隆到本地：
     ```bash
-    git clone https://github.com/你的帳號/轉蛋機專案.git
+    git clone https://github.com/ee276776/Gacha.git
     ```
 
 2. 將你想作為獎品的圖片放入專案資料夾內。
